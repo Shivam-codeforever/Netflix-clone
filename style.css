@@ -444,3 +444,12 @@ body{
     }
 
 }
+@media screen and (max-width: 900px ) {
+    .all{
+        width:55em ;
+        height: 40em;
+    }
+    .container6{
+        height: 70em;
+    }
+}

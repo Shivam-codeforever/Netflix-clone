@@ -1,4 +1,4 @@
-let a = document.getElementById("one");
+let a = document.getElementById("fone");
 const newfun = () => {
     if (a.value === "") {
         alert("Enter email address");
