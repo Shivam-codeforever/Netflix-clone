@@ -1,0 +1,4 @@
+this is implemented by hitting target e.g server with too many requests at the same time , so that server feels to respondto the those requests .it ultimately crashes.
+
+
+syn dos attack : which is used to exploit the vulnerabilities of 

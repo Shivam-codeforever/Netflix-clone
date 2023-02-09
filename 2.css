@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:  'Spline Sans', sans-serif; */
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    background-color: rgb(42, 41, 41);
+}
+
+
+/* 1st Container */
+.all2{
+    color:white;
+    height: 28em;
+    display: flex;
+    background-color: black;
+}
+.all{
+    width: 98.7vw;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5em;
+}
+.container1{
+    position: relative;
+    background: url('netflix.jpg') no-repeat center center/cover ;
+    opacity: 2;
+    height: 180vh;
+    z-index: 1;
+}
+.navbar::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 180vh;
+    box-sizing: border-box;
+    top:0;
+    background-color:rgba(0, 0, 0, 0.35) ;
+    z-index: -1;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    line-height: center;
+    height: 5em;
+}
+.btn1 img{
+    margin: 0 0 0 4em ;
+    /* border: 2px solid yellow; */
+    height: 6em;
+    width: 8em;
+}
+.btn2{
+    /* border: 2px solid red; */
+    margin-right: 2.8em;
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    height: 123vh;
+}
+.new2{
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.755);
+    height: 43.8vh;
+}
+.signin{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 6em;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 110vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.755);
+    border-radius: 8px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    /* border: 2px solid yellow; */
+}
+.content h1{
+    color: white;
+    font-weight: lighter;
+}
+.content input{
+    margin-top: 2em;
+    width: 25vw;
+    height: 4em;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    border: none;
+    padding: 0 0 0 1.5rem;
+}
+.content input::placeholder{
+    color:gray;
+    font-size: 1rem;
+    text-align: justify;
+    /* padding: 0 0 0 1.5em ; */
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 3em;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid red;
+    font-size: 1rem;
+    margin-top: 2.5em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.bottom{
+    /* border: 2px solid blue; */
+    width: 25vw;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.bottom label{
+    color: gray;
+    margin-left: 0.5em;
+    margin-right: 6em;
+}
+.bottom input{
+    padding: 0;
+    margin: 0;
+    width: 1em;
+    height: 1em;
+    background-color: gray;
+    border: none;
+    line-height: center;
+}
+.bottom a{
+    text-decoration: none;
+    color: gray;
+}
+.bottom:hover{
+    text-decoration: underline;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    height: 5em;
+    /* border: 2px solid red; */
+    margin-top: 3em;
+    color: gray;
+    font-size: 1rem;
+}
+.last h4{
+    font-weight: lighter;
+    
+}
+.last a{
+    text-decoration: none;
+    color: white;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.last h5{
+    font-weight: lighter;
+
+}
+.last h5 a{
+    color:blue;
+}
