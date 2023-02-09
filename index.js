@@ -9,8 +9,7 @@ const newfun = () => {
 }
 
 console.log("changed");
-console.log("changed");
-console.log("changed");
+
 
 let write = document.querySelectorAll(".write");
 const fun1 = (y) => {
